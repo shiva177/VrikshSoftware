@@ -1,0 +1,158 @@
+.footer {
+  background: #f8f9fc;
+  padding: 50px 20px;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left {
+  max-width: 250px;
+}
+
+.footer-logo {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.footer-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.footer-links,
+.footer-expert {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-links h3,
+.footer-expert h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #4c6ef5;
+}
+
+.footer-expert p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.inquiry-btn {
+  background: #4c6ef5;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  display: block;
+  margin-top: 10px;
+}
+
+.inquiry-btn:hover {
+  background: #3949ab;
+}
+
+/* 🚀 FIXED SOCIAL MEDIA SECTION */
+.footer-social {
+  position: relative; /* Ensures it stays inside the footer */
+  z-index: 1;
+}
+
+
+.footer-social h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social .social-icon {
+  font-size: 20px;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social .social-icon:hover {
+  color: #4c6ef5;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+.footer-designer {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Scroll To Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-to-top:hover {
+  background: #3949ab;
+}
+

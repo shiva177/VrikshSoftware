@@ -1,0 +1,78 @@
+.property-card {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.property-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.property-details {
+  padding: 16px;
+}
+
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.property-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.property-location {
+  font-size: 14px;
+  color: gray;
+  margin-top: 4px;
+}
+
+.property-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.whatsapp-button,
+.call-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc57;
+}
+
+.call-button {
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+}
+
+.call-button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,122 @@
+.featured-exclusives {
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-exclusives h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.filters {
+  margin: 10px 0;
+}
+
+.filters span {
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: gray;
+}
+
+.filters .active {
+  color: blue;
+  font-weight: bold;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.property-list {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.property-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.property-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.property-info .price {
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+}
+
+.property-info p {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.call {
+  background: linear-gradient(45deg, blue, purple);
+  color: white;
+}
+
+.carousel-btn {
+  position: absolute;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn.left {
+  left: -20px;
+}
+
+.carousel-btn.right {
+  right: -20px;
+}

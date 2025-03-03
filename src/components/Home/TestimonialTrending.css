@@ -1,0 +1,98 @@
+.testimonial-trending {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.rating {
+  margin-top: 15px;
+}
+
+.rating img {
+  width: 100px;
+}
+
+.rating p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.rating a {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+/* Trending Section */
+.trending {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+}
+
+.trending-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.view-all {
+  font-size: 16px;
+  color: blue;
+  text-decoration: none;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.article-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-card h3 {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.read-more {
+  display: block;
+  padding: 10px;
+  color: blue;
+  font-size: 14px;
+  text-decoration: none;
+}
