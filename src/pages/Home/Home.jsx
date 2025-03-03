@@ -4,9 +4,8 @@ import Hero from "../../components/Home/Hero";
 import FeatureSection from "../../components/Home/FeatureSection";
 import Featured from "../../components/Home/Featured";
 import TestimonialTrending from "../../components/Home/TestimonialTrending";
-import GetStarted from "../../components/GetStarted/ContactForm"
 import ContactForm from "../../components/GetStarted/ContactForm";
-import Faq from "../../components/Home/FaQ";
+import Qna from "../../components/Home/Qna";
 import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 const Home = () => {
@@ -18,7 +17,7 @@ const Home = () => {
 <Featured/>
 <TestimonialTrending/>
 <ContactForm/>
-<Faq/>
+<Qna/>
 <Footer/>
 
     </div>

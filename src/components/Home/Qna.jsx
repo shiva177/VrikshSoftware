@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Faq.css";
+import "./Qna.css";
 
 const faqData = [
   {
@@ -29,7 +29,7 @@ const faqData = [
   },
 ];
 
-const Faq = () => {
+const Qna = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -54,4 +54,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default Qna;
