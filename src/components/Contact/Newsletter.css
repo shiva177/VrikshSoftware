@@ -1,0 +1,90 @@
+/* Newsletter Section */
+.newsletter {
+  background-color: #3a2eff; /* Vibrant Blue Background */
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.newsletter-text {
+  max-width: 500px;
+}
+
+.newsletter-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.newsletter-text p {
+  font-size: 16px;
+  color: #dcdcdc;
+  line-height: 1.5;
+}
+
+/* Form Section */
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 5px;
+  max-width: 450px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 20px 0 0 20px;
+}
+
+.newsletter-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Subscribe Button */
+.newsletter-form button {
+  background: #ffffff;
+  color: #3a2eff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.newsletter-form button:hover {
+  background: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-text {
+    margin-bottom: 20px;
+  }
+
+  .newsletter-form {
+    width: 100%;
+    max-width: 400px;
+  }
+}

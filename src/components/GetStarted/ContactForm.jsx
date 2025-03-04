@@ -1,45 +1,63 @@
-import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import "./ContactForm.css"; // Import the CSS file
+import "./ContactForm.css"; // Updated CSS
 
 const ContactForm = () => {
   return (
-    <section className="contact-section">
-      {/* Left Side - Heading & Form */}
+    <div className="contact-section">
       <div className="contact-content">
-        <h3 className="subheading">Get Started</h3>
-        <h1 className="heading">
-          Get in touch with us. <br />
-          We're here to assist you.
-        </h1>
+        {/* Left Section - Form */}
+        <div className="contact-left">
+          <h4 className="sub-heading">Get Started</h4>
+          <h2 className="main-heading">
+            Get in touch with us. <br /> We’re here to assist you.
+          </h2>
 
-        <form className="contact-form">
-          {/* Input Fields (Bottom Border Only) */}
-          <div className="input-group">
-            <input type="text" placeholder="Your Name" className="input-line" />
-            <input type="email" placeholder="Email Address" className="input-line" />
-            <input type="tel" placeholder="Phone Number (optional)" className="input-line" />
-          </div>
+          {/* Form */}
+          <form className="contact-form">
+            <div className="form-row">
+              <div className="input-field">
+                <label>Your Name</label>
+                <input type="text" placeholder="Enter your name" />
+                <span className="underline"></span>
+              </div>
+              <div className="input-field">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" />
+                <span className="underline"></span>
+              </div>
+              <div className="input-field">
+                <label>Phone Number (optional)</label>
+                <input type="text" placeholder="Enter your phone number" />
+                <span className="underline"></span>
+              </div>
+            </div>
 
-          {/* Message Input */}
-          <textarea placeholder="Message" rows="4" className="message-line"></textarea>
+            {/* Message */}
+            <div className="message-box">
+              <label>Message</label>
+              <textarea placeholder="Write your message"></textarea>
+              <span className="underline"></span>
+            </div>
 
-          {/* Submit Button */}
-          <button type="submit" className="submit-button">
-            Leave us a Message →
+            {/* Submit Button */}
+            <div className="button-container">
+              <button className="submit-btn">Leave us a Message →</button>
+            </div>
+          </form>
+        </div>
+
+        {/* Right Section - Social Icons */}
+        <div className="social-icons-container">
+          <button className="social-btn">
+            <FaFacebookF />
           </button>
-        </form>
+          <button className="social-btn">
+            <FaInstagram />
+          </button>
+        </div>
       </div>
-
-      {/* Right Side - Social Icons */}
-      <div className="social-icons">
-        <a href="#" className="icon"><FaFacebookF /></a>
-        <a href="#" className="icon"><FaInstagram /></a>
-      </div>
-    </section>
+    </div>
   );
 };
 
 export default ContactForm;
-
-

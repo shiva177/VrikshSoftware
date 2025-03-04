@@ -6,7 +6,7 @@ const AboutHero2 = () => {
     <div className="about-container2">
       <div className="about-banner2">
         <img
-          src="/heroImage.png"
+          src="/contact-image.png"
           alt="About Us"
           className="about-image2"
         />

@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 import "./About.css";
 const About = () => {
   return (
-    <div className="hero-section">
+    <div className="about-section">
      <Navbar2/>
      <AboutHero/>
      <ExpertGuidance/>
